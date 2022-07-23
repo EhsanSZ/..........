@@ -1,6 +1,9 @@
+using MB.Application;
+using MB.Infrastructure.Core;
+using MB.Infrastructure.EFCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -22,6 +25,7 @@ namespace Master_Blogger
 
         public void ConfigureServices(IServiceCollection services)
         {
+            Bootstrapper.Config(services, Configuration.GetConnectionString("MasterBloggerDB"));
             services.AddRazorPages();
         }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+MB4mLQCeHR/meE13X/xCv0XBNX92J7liMDKsERBjcgA8gpW8v9yye+IVwXEm81IqE79Awsk2esSK7CbrYX2/g==",
+  "dgSpecHash": "mhYnjd4yCqtkgpAYzLmygYB/aYKp+Tqb83Ucg4NfUAu1IqcOp7rthcYIKur+PXis5Wng1blCWIJ62p0J1PQxVg==",
   "success": true,
-  "projectFilePath": "D:\\MyProje\\ASP.Net\\Master_Blogger\\Master_Blogger\\Master_Blogger\\Master_Blogger.csproj",
+  "projectFilePath": "D:\\MyProje\\ASP.Net\\Master_Blogger\\Master_Blogger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ehsan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Ehsan\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
