@@ -4,4 +4,13 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\vendor\font-awesome\less\" />
+    <Folder Include="wwwroot\vendor\font-awesome\scss\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MB.Application.Contracts\MB.Application.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>

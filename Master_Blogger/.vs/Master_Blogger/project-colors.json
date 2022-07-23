@@ -5,7 +5,27 @@
       "ProjectGuid": "e629b151-910b-4b07-b17c-16a91274817e",
       "DisplayName": "Master_Blogger",
       "ColorIndex": 0
+    },
+    "e1a3ff8a-92d2-458c-b664-9f568826af40": {
+      "ProjectGuid": "e1a3ff8a-92d2-458c-b664-9f568826af40",
+      "DisplayName": "MB.Domain",
+      "ColorIndex": 1
+    },
+    "c4e1c0e9-7a9f-4ae0-879f-0ce855d212b8": {
+      "ProjectGuid": "c4e1c0e9-7a9f-4ae0-879f-0ce855d212b8",
+      "DisplayName": "MB.Application.Contracts",
+      "ColorIndex": 2
+    },
+    "eded1b93-977b-477e-aed2-80aebbd03b09": {
+      "ProjectGuid": "eded1b93-977b-477e-aed2-80aebbd03b09",
+      "DisplayName": "MB.Application",
+      "ColorIndex": 3
+    },
+    "c5ed6817-0929-402a-adfe-ccb3c9e81e92": {
+      "ProjectGuid": "c5ed6817-0929-402a-adfe-ccb3c9e81e92",
+      "DisplayName": "MB.Infrastructure.EFCore",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 5
 }

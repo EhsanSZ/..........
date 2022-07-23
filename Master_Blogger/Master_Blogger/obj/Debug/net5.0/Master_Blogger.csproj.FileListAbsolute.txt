@@ -37,3 +37,12 @@ D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Master_Blogger.pdb
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Master_Blogger.genruntimeconfig.cache
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Master_Blogger.csproj.CopyComplete
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Error.cshtml.g.cs
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Index.cshtml.g.cs
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Privacy.cshtml.g.cs
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shared\_Layout.cshtml.g.cs
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\_ViewImports.cshtml.g.cs
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\_ViewStart.cshtml.g.cs
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagment\List.cshtml.g.cs
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Pages\ArticleDetails.cshtml.g.cs
