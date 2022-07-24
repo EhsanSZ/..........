@@ -13,7 +13,7 @@ namespace MB.Infrastructure.EFCore.Repositories
             _context = context;
         }
 
-        public void Create(ArticleCategory entity)
+        public void Add(ArticleCategory entity)
         {
             _context.ArticleCategories.Add(entity);
             _context.SaveChanges();    

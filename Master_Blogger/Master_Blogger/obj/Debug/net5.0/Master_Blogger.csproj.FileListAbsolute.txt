@@ -74,3 +74,4 @@ D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\bin\Debug\net5.0
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\bin\Debug\net5.0\MB.Application.Contracts.pdb
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\bin\Debug\net5.0\MB.Domain.pdb
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\bin\Debug\net5.0\MB.Infrastructure.EFCore.pdb
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagment\Create.cshtml.g.cs
