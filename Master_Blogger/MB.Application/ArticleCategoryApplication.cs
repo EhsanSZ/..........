@@ -21,6 +21,7 @@ namespace MB.Application
             _articleCategoryValidatorService = articleCategoryValidatorService;
         }
 
+
         public List<ArticleCategoryViewModel> List()
         {
             var articleCategories = _articleCategoryRepository.GetAll();
