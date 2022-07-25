@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MB.Domain.ArticleCategoryAgg.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,14 +14,17 @@ namespace MB.Domain.ArticleCategoryAgg
         public bool IsDeleted { get; private set; }
         public DateTime CreationDate { get; private set; }
 
-        public ArticleCategory(string title)
+        public ArticleCategory(string title , IArticleCategoryValidatorService validatorService)
         {
+            GuardAgainstEmptyTitle(title);
+            validatorService.CheckThatThisRecordAlreadyExists(title);
             Title = title;
             IsDeleted = false;
             CreationDate = DateTime.Now;
         }
         public void Rename(string title)
         {
+            GuardAgainstEmptyTitle(title);
             Title = title;
         }
 
@@ -34,8 +38,11 @@ namespace MB.Domain.ArticleCategoryAgg
             IsDeleted = false;
         }
 
-
-
+        public void GuardAgainstEmptyTitle(string title)
+        {
+            if (string.IsNullOrWhiteSpace(title))
+                throw new ArgumentNullException();
+        }
 
 
     }

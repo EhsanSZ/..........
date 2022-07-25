@@ -11,6 +11,10 @@ namespace MB.Domain.ArticleCategoryAgg
         void Add(ArticleCategory entity);
 
         void Save();
-        
+
+        bool Exists(string title);
+
+
+
    }
 }
