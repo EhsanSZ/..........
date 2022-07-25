@@ -9,5 +9,9 @@ namespace MB.Application.Contracts.ArticleCategory
 
         void Rename(RenameArticleCategory command);
         RenameArticleCategory Get(long id);
+
+        void Remove(long id);
+        void Activate(long id);
+
     }
 }

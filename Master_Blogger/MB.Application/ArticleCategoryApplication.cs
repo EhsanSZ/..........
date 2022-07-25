@@ -18,7 +18,6 @@ namespace MB.Application
 
         public List<ArticleCategoryViewModel> List()
         {
-
             var articleCategories = _articleCategoryRepository.GetAll();
 
             return articleCategories.Select(articleCategory => new ArticleCategoryViewModel
@@ -54,6 +53,21 @@ namespace MB.Application
                 Title = articleCategory.Title
             };
            
+        }
+
+        public void Remove(long id)
+        {
+            var articleCategory = _articleCategoryRepository.Get(id);
+            articleCategory.Remove();
+            _articleCategoryRepository.Save();
+
+        }
+
+        public void Activate(long id)
+        {
+            var articleCategory = _articleCategoryRepository.Get(id);
+            articleCategory.Activate();
+            _articleCategoryRepository.Save();
         }
     }
 }

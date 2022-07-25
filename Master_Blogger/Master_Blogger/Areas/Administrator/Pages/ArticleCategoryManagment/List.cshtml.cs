@@ -21,5 +21,17 @@ namespace Master_Blogger.Areas.Administrator.Pages.ArticleCategoryManagement
             ArticleCategories = _articleCategoryApplication.List();
         }
 
+        public RedirectToPageResult OnPostRemove(long id)
+        {
+            _articleCategoryApplication.Remove(id);
+            return RedirectToPage("./List");
+        }
+
+        public RedirectToPageResult OnPostActivate(long id)
+        {
+            _articleCategoryApplication.Activate(id);
+            return RedirectToPage("./List");
+        }
+
     }
 }
