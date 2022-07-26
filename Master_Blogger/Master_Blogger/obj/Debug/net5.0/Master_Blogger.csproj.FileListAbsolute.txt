@@ -76,3 +76,6 @@ D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\bin\Debug\net5.0
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\bin\Debug\net5.0\MB.Infrastructure.EFCore.pdb
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagment\Create.cshtml.g.cs
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagment\Edit.cshtml.g.cs
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\Create.cshtml.g.cs
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\Edit.cshtml.g.cs
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\Master_Blogger\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\List.cshtml.g.cs

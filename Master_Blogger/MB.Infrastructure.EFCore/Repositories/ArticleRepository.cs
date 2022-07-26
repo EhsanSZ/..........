@@ -11,7 +11,7 @@ namespace MB.Infrastructure.EFCore.Repositories
     {
         private readonly MasterBloggerContext _context;
 
-        public ArticleRepository(MasterBloggerContext context) /*: base(context)*/
+        public ArticleRepository(MasterBloggerContext context)
         {
             _context = context;
         }
@@ -31,7 +31,22 @@ namespace MB.Infrastructure.EFCore.Repositories
         public void CreateAndSave(Article entity)
         {
             _context.Articles.Add(entity);
+            Save();
+        }
+
+        public Article Get(long id)
+        {
+            return _context.Articles.FirstOrDefault(x => x.Id == id);
+        }
+
+        public void Save()
+        {
             _context.SaveChanges();
+        }
+
+        public bool Exists(string title)
+        {
+            return _context.Articles.Any(x => x.Title == title);
         }
     }
 }

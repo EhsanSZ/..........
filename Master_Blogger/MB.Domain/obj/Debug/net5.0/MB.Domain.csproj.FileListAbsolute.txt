@@ -10,3 +10,6 @@ D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Domain\obj\Debug\net5.0\MB.D
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Domain\obj\Debug\net5.0\ref\MB.Domain.dll
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.pdb
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.AssemblyReference.cache
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Domain\bin\Debug\net5.0\MB.Application.Contracts.dll
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Domain\bin\Debug\net5.0\MB.Application.Contracts.pdb
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.CopyComplete
