@@ -215,29 +215,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
-      },
-      "01_Framework/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.3"
-        },
-        "compile": {
-          "bin/placeholder/01_Framework.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/01_Framework.dll": {}
-        }
-      },
-      "MB.Application.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/MB.Application.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MB.Application.Contracts.dll": {}
-        }
       }
     }
   },
@@ -647,22 +624,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "01_Framework/1.0.0": {
-      "type": "project",
-      "path": "../01_Framework/01_Framework.csproj",
-      "msbuildProject": "../01_Framework/01_Framework.csproj"
-    },
-    "MB.Application.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../MB.Application.Contracts/MB.Application.Contracts.csproj",
-      "msbuildProject": "../MB.Application.Contracts/MB.Application.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "01_Framework >= 1.0.0",
-      "MB.Application.Contracts >= 1.0.0"
+      "Microsoft.EntityFrameworkCore >= 3.1.3"
     ]
   },
   "packageFolders": {
@@ -671,11 +637,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProje\\ASP.Net\\Master_Blogger\\Master_Blogger\\MB.Domain\\MB.Domain.csproj",
-      "projectName": "MB.Domain",
-      "projectPath": "D:\\MyProje\\ASP.Net\\Master_Blogger\\Master_Blogger\\MB.Domain\\MB.Domain.csproj",
+      "projectUniqueName": "D:\\MyProje\\ASP.Net\\Master_Blogger\\Master_Blogger\\01_Framework\\01_Framework.csproj",
+      "projectName": "01_Framework",
+      "projectPath": "D:\\MyProje\\ASP.Net\\Master_Blogger\\Master_Blogger\\01_Framework\\01_Framework.csproj",
       "packagesPath": "C:\\Users\\Ehsan\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProje\\ASP.Net\\Master_Blogger\\Master_Blogger\\MB.Domain\\obj\\",
+      "outputPath": "D:\\MyProje\\ASP.Net\\Master_Blogger\\Master_Blogger\\01_Framework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ehsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -691,14 +657,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "D:\\MyProje\\ASP.Net\\Master_Blogger\\Master_Blogger\\01_Framework\\01_Framework.csproj": {
-              "projectPath": "D:\\MyProje\\ASP.Net\\Master_Blogger\\Master_Blogger\\01_Framework\\01_Framework.csproj"
-            },
-            "D:\\MyProje\\ASP.Net\\Master_Blogger\\Master_Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
-              "projectPath": "D:\\MyProje\\ASP.Net\\Master_Blogger\\Master_Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -710,6 +669,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[3.1.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
