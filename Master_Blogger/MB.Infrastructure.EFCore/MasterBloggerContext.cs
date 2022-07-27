@@ -20,9 +20,12 @@ namespace MB.Infrastructure.EFCore
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new ArticleCategoryMapping());
-            modelBuilder.ApplyConfiguration(new ArticleMapping());
-            modelBuilder.ApplyConfiguration(new CommentMapping());
+            var assembly = typeof(ArticleMapping).Assembly;
+            modelBuilder.ApplyConfigurationsFromAssembly(assembly);
+
+            //modelBuilder.ApplyConfiguration(new ArticleCategoryMapping());
+            //modelBuilder.ApplyConfiguration(new ArticleMapping());
+            //modelBuilder.ApplyConfiguration(new CommentMapping());
 
             base.OnModelCreating(modelBuilder);
         }
