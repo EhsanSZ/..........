@@ -8,5 +8,7 @@ namespace MB.Domain.CommentAgg
         List<CommentViewModel> GetList();
         void CreateAndSave(Comment entity);
 
+        Comment Get(long id);
+        void Save();
     }
 }
