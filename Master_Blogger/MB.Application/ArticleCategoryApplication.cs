@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using _01_Framework.Infrastructure;
 using MB.Application.Contracts.ArticleCategory;
 using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.ArticleCategoryAgg.Services;
@@ -12,13 +13,15 @@ namespace MB.Application
     {
         private readonly IArticleCategoryRepository _articleCategoryRepository;
         private readonly IArticleCategoryValidatorService _articleCategoryValidatorService;
+        private readonly IUnitOfWork _unitOfWork;
 
 
         public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepository ,
-            IArticleCategoryValidatorService articleCategoryValidatorService)
+            IArticleCategoryValidatorService articleCategoryValidatorService , IUnitOfWork unitOfWork)
         {
             _articleCategoryRepository = articleCategoryRepository;
             _articleCategoryValidatorService = articleCategoryValidatorService;
+            _unitOfWork = unitOfWork;
         }
 
 
@@ -38,14 +41,18 @@ namespace MB.Application
 
         public void Create(CreateArticleCategory command)
         {
+            _unitOfWork.BeginTran();
             var articleCategory = new ArticleCategory(command.Title , _articleCategoryValidatorService);
             _articleCategoryRepository.Create(articleCategory);
+            _unitOfWork.CommitTran();
         }
 
         public void Rename(RenameArticleCategory command)
         {
+            _unitOfWork.BeginTran();
             var articleCategory = _articleCategoryRepository.Get(command.Id);
             articleCategory.Rename(command.Title);
+            _unitOfWork.CommitTran();
         }
 
         public RenameArticleCategory Get(long id)
@@ -62,15 +69,19 @@ namespace MB.Application
 
         public void Remove(long id)
         {
+            _unitOfWork.BeginTran();
             var articleCategory = _articleCategoryRepository.Get(id);
             articleCategory.Remove();
+            _unitOfWork.CommitTran();
 
         }
 
         public void Activate(long id)
         {
+            _unitOfWork.BeginTran();
             var articleCategory = _articleCategoryRepository.Get(id);
             articleCategory.Activate();
+            _unitOfWork.CommitTran();
         }
     }
 }

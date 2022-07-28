@@ -39,6 +39,7 @@ namespace MB.Infrastructure.Query
         {
             return _context.Articles.Include(x => x.ArticleCategory)
                 .Include(x => x.Comments)
+                .Include(x => x.ArticleCategory)
                 .Select(x => new ArticleQueryView
                 {
                     Id = x.Id,

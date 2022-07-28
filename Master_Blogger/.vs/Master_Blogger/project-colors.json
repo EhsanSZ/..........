@@ -40,7 +40,12 @@
       "ProjectGuid": "a448727a-2427-4a02-b49a-438671d47e69",
       "DisplayName": "MB.Infrastructure.Query",
       "ColorIndex": 6
+    },
+    "45a0d8b9-2ec2-48f1-992f-5cbf6a3a2a45": {
+      "ProjectGuid": "45a0d8b9-2ec2-48f1-992f-5cbf6a3a2a45",
+      "DisplayName": "01_Framework",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }

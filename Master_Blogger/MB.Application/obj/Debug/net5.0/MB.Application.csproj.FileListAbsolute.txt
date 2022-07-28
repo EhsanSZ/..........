@@ -15,3 +15,5 @@ D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Application\obj\Debug\net5.0
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Application\obj\Debug\net5.0\MB.Application.dll
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Application\obj\Debug\net5.0\ref\MB.Application.dll
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Application\obj\Debug\net5.0\MB.Application.pdb
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Application\bin\Debug\net5.0\01_Framework.dll
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Application\bin\Debug\net5.0\01_Framework.pdb

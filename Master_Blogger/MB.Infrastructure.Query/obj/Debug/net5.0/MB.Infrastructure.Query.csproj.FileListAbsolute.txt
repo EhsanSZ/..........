@@ -17,3 +17,5 @@ D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Infrastructure.Query\obj\Deb
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.dll
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Infrastructure.Query\obj\Debug\net5.0\ref\MB.Infrastructure.Query.dll
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.pdb
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Infrastructure.Query\bin\Debug\net5.0\01_Framework.dll
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\MB.Infrastructure.Query\bin\Debug\net5.0\01_Framework.pdb
