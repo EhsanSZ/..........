@@ -1,6 +1,5 @@
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\01_Framework\bin\Debug\net5.0\01_Framework.deps.json
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\01_Framework\bin\Debug\net5.0\01_Framework.dll
-D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\01_Framework\bin\Debug\net5.0\ref\01_Framework.dll
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\01_Framework\bin\Debug\net5.0\01_Framework.pdb
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\01_Framework\obj\Debug\net5.0\01_Framework.csproj.AssemblyReference.cache
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\01_Framework\obj\Debug\net5.0\01_Framework.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,3 +9,4 @@ D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\01_Framework\obj\Debug\net5.0\0
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\01_Framework\obj\Debug\net5.0\01_Framework.dll
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\01_Framework\obj\Debug\net5.0\ref\01_Framework.dll
 D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\01_Framework\obj\Debug\net5.0\01_Framework.pdb
+D:\MyProje\ASP.Net\Master_Blogger\Master_Blogger\01_Framework\obj\Debug\net5.0\refint\01_Framework.dll
